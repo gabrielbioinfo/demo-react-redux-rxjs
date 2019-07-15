@@ -1,0 +1,18 @@
+.Error {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.colored{background-color: #eeeeee;}
+.flex{display: flex;}
+.column{flex-direction: column;}
+.grow{flex-grow: 1;}
+.marg10{margin: 10px;}
+.pad10{padding: 10px;}
+.center-content{justify-content: center;}
+.h10{height: 100px;}
+
+.Error .body .item{height: 80px;}
+.Error .body .item .icon{width: 20%;margin-left: 0;}
+.Error .body .item .content{margin-right: 0;}
+

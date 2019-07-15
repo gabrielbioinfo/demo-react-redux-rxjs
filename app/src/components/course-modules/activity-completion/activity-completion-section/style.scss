@@ -1,0 +1,19 @@
+.course-modules-activity-completion-section{
+  .completion-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #cccccc;
+    padding: 10px;
+    margin: 0 10px 0 0;
+    border-radius: 50%;
+  }
+  .completion{
+    font-size: 1em;
+    color: #ffffff;
+  }
+  .completion-container-completed{
+    background-color: #4CAF50;
+  }
+}
+

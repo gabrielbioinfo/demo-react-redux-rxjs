@@ -1,0 +1,29 @@
+.course-content{
+  .section-title {
+    font-size: 1.5em;
+    padding-bottom: 10px;
+    font-weight: 400;
+  }
+  .section-activity-link {
+    align-items: center;
+    padding: 0 10px 0 0;
+    & > div{
+      color: #666666;
+    }
+    // @media screen and (max-width: 960px) {
+    //   padding: 0;
+    // }
+  
+    // @media screen and (max-width: 670px) {
+    //   padding: 0;
+    // }
+    
+    @media screen and (max-width: 600px) {
+      margin-right: 0;
+      flex-grow: 1;
+      max-width: 100%;
+      padding: 0;
+    }
+  }
+}
+

@@ -1,0 +1,8 @@
+.MainContent{
+  display: flex;
+  flex-direction: row;
+  background-color: aquamarine;
+}
+.MainContent div:first-child{
+  flex-grow: 1;
+}

@@ -1,0 +1,20 @@
+.course-modules-activity-completion-single{
+    .completion-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 1em;
+    padding: 10px;
+  }
+  .completion-whithout-icon{
+    padding: 10px;
+  }
+  .icon-check{
+    color: #cccccc;
+  }
+  .icon-check-completed{
+    color: #4CAF50;
+  }
+
+}

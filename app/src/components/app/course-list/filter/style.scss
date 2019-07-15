@@ -1,0 +1,25 @@
+.filter{
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px;
+  .bolder{
+    font-weight: 500;
+  }
+  .selected-filters{
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    .active-filter{
+      padding: 5px;
+      margin: 0 5px;
+      background-color: #eeeeee;
+      display: flex;
+      align-items: center;
+      .deactivate-filter{
+        padding: 1px;
+        min-width: auto;
+        margin-left: 5px;
+      }
+    }
+  }
+}

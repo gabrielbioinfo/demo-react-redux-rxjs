@@ -1,0 +1,53 @@
+.app{
+    display: flex;
+    flex-direction: row;
+    // background-color: #ffffff !important;
+    // color: rgba(0, 0, 0, 0.54) !important;
+  
+    & > *{
+      flex-grow: 1;
+    }
+  
+    .app-toolbar{
+      padding: 5px 0;
+    }
+    
+    .title{
+      flex-grow: 1;
+      font-size: 1.6em;
+      line-height: 1.6em;
+      padding: 0;
+      box-sizing: content-box;
+      margin: 0;
+    }
+  
+    .app-content{
+      margin-top: 80px;
+    }
+  
+    .app-header{
+      color: #666666;
+      background-color: #ffffff;
+    }
+  
+    & > h2.title{
+      margin-left: 10px;
+    }
+  
+    .title, .subtitle{
+      color: #666666 !important;
+    }
+  
+    /* Utilizando apenas navegação principal */
+    .course-format-main-navigation{
+      display: flex !important;
+    }
+    .course-format-bottom-nav{
+      display: none !important;
+    }
+
+    .menu-item-icon{
+      font-size: $menuItemIconSize;
+    }
+
+  }

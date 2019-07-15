@@ -1,0 +1,182 @@
+.timeline{
+  .course-modules-activity-simple{
+    min-width: none;
+  }
+}
+
+.course-modules-activity-simple{
+
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-bottom: 0!important;
+
+  min-width: 300px;
+  max-width: 30%;
+  width: 100%;
+  margin-right: 10px;
+  display: flex;
+  flex-direction: column;
+  min-height: 220px;
+  height: fit-content;
+
+  @media screen and (max-width: 960px) {
+    max-width: 45%;
+  }
+
+  @media screen and (max-width: 670px) {
+    max-width: 40%;
+  }
+  
+  @media screen and (max-width: 600px) {
+    margin-right: 0;
+    flex-grow: 1;
+    max-width: 100%;
+  }
+
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+
+  .title{
+    font-size: 1.2em;
+    font-weight: 500;
+  }
+  .subtitle{
+    font-size: 1.1em;
+    font-weight: 400
+  }
+  .nested{
+    padding-left: 1em;
+  }
+  .list{
+    width: 100%;
+  }
+  .activities{
+    padding: 0;
+  }
+  .sectionContent{
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+  }
+  .sectionLine{
+    display:flex;
+    align-items: center;
+    padding-right: 0 !important;
+    padding-left: 16px;
+    flex-grow: 1;
+  }
+  .sectionLineText{
+    flex-grow: 1;
+    align-items: center;
+  }
+  .sectionLineAction{
+    display: flex;
+    align-items: center;
+  }
+  .sectionContentDetails{
+    padding: 10px;
+    padding-left: 16px;
+  }
+  .titlebox{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  .center{
+    align-self: center;
+  }
+  .sectionLineTextCalendar{
+    flex-grow: 1;
+    text-align: right;
+  }
+  .firstFullLine{
+    display: flex;
+    flex-grow: 1;
+    padding: 0 0 0 16px;
+    min-height: 40px;
+    align-items: start;
+  }
+  .fullLine{
+    display: flex;
+    flex-grow: 1;
+    padding: 16px 16px 0 16px;
+    min-height: 40px;
+    align-items: center;
+  }
+  .actions{
+    display: flex;
+    align-items: center;
+  }
+  .nopadding-right{
+    padding-right: 0;
+  }
+  .sectionLineExpandind{
+    padding-left: 0;
+    background-color: rgba(0,0,0,0.03);
+  }
+  .padding-right{
+    padding-right: 16px !important;
+  }
+  .fullRight{
+    text-align: right;
+    flex-direction: row;
+    justify-content: flex-end;
+    flex-grow: 1
+  }
+  .badgeActivity{
+    padding: 1.1em;
+  }
+
+
+  .mediaLine{
+    display: flex;
+    flex-grow: 1;
+    padding: 0;
+    justify-content: center;
+    margin-bottom: 16px;
+    img{
+      flex-grow: 1;
+      width: 100%;
+      height: 100%;
+    }
+  }
+  
+  .iconsLine{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 0;
+  }
+  
+  .goToActivity, .got-to-activity{
+    // align-self: flex-end;
+    // padding: 0 !important;
+    // margin-bottom: 10px;
+    cursor: pointer;
+  }
+  
+  
+  .groupTag{
+    box-sizing: border-box;
+    padding: 4px;
+    background-color: #ccc;
+    font-size: 0.9em;
+    font-weight: 600;
+  }
+  
+  .expanded .sectionLineExpanding{
+    border-bottom: 1px solid #dddddd
+  }
+  
+  .completion > span{
+    padding-top: 0;
+  }
+  .child{
+    // background-color: rgba($color: (#000000); $alpha: 0.03) !important;
+    border-bottom: 1px solid #dddddd;
+    max-width: 100%;
+    &>*{
+      font-size: 0.95em !important;
+    }
+  
+  }
+
+}

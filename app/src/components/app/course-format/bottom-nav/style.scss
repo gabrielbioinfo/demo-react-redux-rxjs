@@ -1,0 +1,19 @@
+.course-format-bottom-nav{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: none;
+  flex-grow: 1;
+  z-index: 1;
+
+  .item {
+    padding: 0 5px;
+    min-width: 60px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .course-format-bottom-nav {
+    display: flex;
+  }
+}

@@ -1,0 +1,30 @@
+.app-course-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-width: 320px;
+  font-size: 12px;
+  // padding: 20px;
+  .contents{
+    display: flex;
+    flex-wrap: wrap;
+    width: inherit;
+    & > div{
+      width: 33%;
+    }
+    @media screen and (max-width: 1150px) {
+      & > div{
+        width: 50%;
+      }
+    }
+    @media screen and (max-width: 600px) {
+      flex-grow: 1;
+      & > div{
+        width: 100%;
+      }
+    }
+  }
+}
+.padbottom{
+  padding-bottom: 70px;
+}

@@ -1,0 +1,64 @@
+{
+  "mycourses":[
+    {
+      "id":"2045",
+      "target":"self",
+      "shortname":"20191FLO19101",
+      "idnumber":"",
+      "name":"M\u00f3dulo: Suprimentos",
+      "startdate":"1545357600",
+      "completion": {
+        "percentage": 53,
+        "style": "warning"
+      },
+      "maincategory":"FLEX",
+      "parentcategory":"2019-1",
+      "categories":["2019-1","FLEX"],
+      "media":{
+        "type": "image",
+        "url": "https://udemy-images.udemy.com/course/240x135/1088442_0150_2.jpg"
+      }
+    }
+  ],
+  "application":{
+    "hasDrawerMenu":false,
+    "hasBottomMenu":false,
+    "app":{"app":"course-format"},
+    "filters": {
+      "nivel": {
+        "name": "Nível de Ensino",
+        "shortname": "Nível",
+        "items": [
+          "Graduação", "Extensão", "Pós Graduação"
+        ]
+      },
+      "periodo": {
+        "name": "Períodos",
+        "shortname": "Períodos",
+        "items": [
+          "2000-0", "2015-2", "2017-1", "2019-1"
+        ]
+      },
+      "modalidade": {
+        "name": "Modalidade",
+        "shortname": "Modalidade",
+        "items": [
+          "Presencial", "EaD"
+        ]
+      }
+    }
+  },
+  "site":{
+    "domain":"graduacao.unisuam.edu.br",
+    "api":"\/course\/format\/reactive\/api.php",
+    "protocol":"http"
+  },
+  "user":{
+    "id":"38",
+    "username":"gespindola",
+    "name":"Gabriel Esp\u00edndola ",
+    "email":"gespindola@unisuam.edu.br",
+    "profileImage":null,
+    "capabilities":[]
+  }
+}
