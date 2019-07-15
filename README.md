@@ -1,16 +1,16 @@
-# Project Title
+# Demo React
 
 Demo de utilização React, Redux e RXjs em um projeto de formato de cursos.
 
-## Getting Started
+## Intro
 
 Este projeto tem como objetivo servir como exemplo de utilização das tecnologias.
 
-### Prerequisites
+### Pre-requisitos
 
 Para rodar a aplicação é necessário que você tenha instalado o docker + docker-compose
 
-## Runnig
+## Rodando
 
 Para criar o container:
 ```
@@ -22,6 +22,6 @@ Para rodar basta executar:
 docker-compose up
 ```
 
-## Authors
+## Autores
 
 * **Gabriel Espindola** - *Comeex.com.br* - (https://github.com/gabrielbioinfo)
